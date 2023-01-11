@@ -1,0 +1,825 @@
+@media ( max-width:75em) {
+
+  html{
+    font-size: 60.5%;
+  }
+
+  .primary-header{
+    font-size: 5.2rem;
+  }
+  
+}
+
+
+@media ( max-width:68em) {
+
+  html{
+    font-size: 58.5%;
+  }
+
+  h2{
+    font-size: 3.6rem;
+  }
+
+  .marketing-feature-text :nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .marketing-icon {
+    font-size: 2rem;
+  }
+
+  .wherever-img{
+    max-width: 42rem;
+  }
+  .wherever-you-need-us {
+    padding: 9.6rem 9.6rem 3.6rem 3.6rem;
+  }
+
+  .icons-card {
+    gap: 6.3rem;
+  }
+
+  .icons-card .icon-card p:nth-child(2) {
+    font-size: 3.2rem;
+  }
+
+  .icons-card .icon-card p:nth-child(3) {
+    font-size: 1.4rem;
+  }
+
+  .download-btn button a div{
+    font-size: 1.2rem;
+  }
+
+  .download-btn button a:link , .download-btn button a:visited {
+    font-size: 1.6rem;
+    padding: 1rem 2.4rem;
+  }
+  
+  .download-bold{
+    font-size: 2.4rem;
+  }
+  
+  .download-icon[name="logo-apple"] ,.download-icon[name="logo-google-playstore"] {
+  font-size: 3.6rem;
+  }
+}
+
+
+
+@media ( max-width:62em) {
+
+  html{
+    font-size: 56.5%;
+  }
+
+  .primary-header{
+    font-size: 4.4rem;
+  }
+
+  
+  h2{
+    font-size: 2.4rem;
+  }
+
+  .marketing-title h2 {
+    font-size: 3.6rem;
+  }
+
+  .marketing-title-desc {
+    font-size: 1.4rem;
+  }
+
+  .marketing-feature-text :nth-child(1) {
+    font-size: 1.8rem;
+  }
+
+  .marketing-icon {
+    font-size: 1.8rem;
+  }
+
+  .marketing {
+    gap: 3.6rem;
+  }
+}
+
+@media ( max-width:56em) {
+  .nav-header {
+    padding: 1.6rem 4.4rem;
+  }
+
+  .wherever-img {
+    max-width: 38rem;
+  }
+
+  .wherever-img img{
+    max-width: 100%;
+  }
+
+  .whenerver-feature-text p:nth-child(1) {
+    font-size: 1.8rem;
+  }
+
+  .wherever-you-need-us {
+    padding: 9.6rem 3.6rem 3.6rem 3.6rem;
+  }
+
+  .how-slider-container {
+    padding: 3.6rem 3.6rem 3.6rem 3.6rem;
+  }
+
+.marketing-img{
+  width: 45rem;
+
+}
+
+.marketing-img image{
+  width: 45rem;
+
+}
+
+  .review-blockqoute blockquote {
+    font-size: 1.8rem;
+
+  }
+
+  .wherever-header h2 {
+    font-size: 4.4rem;
+  
+  }
+  
+  .wherever-header p {
+    font-size: 1.6rem;
+  }
+
+  .download-btn button a:link , .download-btn button a:visited {
+    max-width: 18rem;
+  
+  
+  }
+
+}
+
+@media ( max-width:47em) {
+
+  html{
+    font-size: 65.25%;
+  }
+
+
+  .open-nav .nav-items{
+    opacity: 1;
+    visibility:visible;
+    pointer-events:all;
+    transform: translateX(0);
+
+  }
+
+  .nav-right-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .nav-items{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    z-index: 1;    
+    justify-content: center;
+    align-items: center;
+    transform: translatey(-100%);
+    transition: all 0.5s;
+
+    background-color: rgba(225, 225, 225, 0.9);
+  }
+
+
+  .nav-item a:link , .nav-item a:visited {
+    font-size: 3.0rem;
+    transition: background 0.5s;
+    }
+
+    .nav-item a:hover , .nav-item a:active {
+      color: #da3762 ;
+    }
+
+    .nav-icon{
+      font-size: 2.4rem;
+    }
+
+
+
+  .nav-btn{
+    padding: 1.2rem 1.6rem;
+  }
+
+
+  .open-nav  .mobile-icons div .mobile-close-menu{
+    display: block;
+  }
+
+  .open-nav  .mobile-icons div .mobile-menu{
+    display: none;
+  }
+
+  .nav-header {
+    padding: 1.6rem 3.6rem;
+  }
+
+  .mobile-icons{
+    font-size: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .primary-header {
+    font-size: 3.6rem;
+  }
+
+  .hero-input input{
+    /* width: 30rem; */
+    padding: 1.3rem 4.4rem;
+
+  }
+.input-icon-after {
+
+    left: 27rem;
+
+}
+
+  .grid__3 {
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    padding: 0rem 3.6rem;
+  }
+
+  .title-container {
+    padding: 0 3.6rem;
+  }
+
+  .marketing {
+    /* max-width: 82rem; */
+    grid: 0rem;
+  }
+
+  .marketing-img {
+    max-width: 38rem;
+  }
+
+  .marketing-img img {
+    width: 100%;
+  }
+
+  .marketing-feature-container {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .marketing-feature-text :nth-child(2) {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .marketing-title h2 {
+    font-size: 3.0rem;
+  }
+
+  .marketing-title-desc {
+    font-size: 1.2rem;
+  }
+
+  .marketing-header {
+    padding: 0rem;
+    padding-right: 4.4rem;
+  }
+
+  .wherever-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0rem;
+  }
+
+  .wherever-display-col {
+    justify-self: center;
+  }
+
+  .wherever-img {
+    max-width: 40rem;
+    justify-self: center;
+  }
+
+  
+.how-title {
+  padding: 0 9.6rem;
+
+}
+
+  .icons-card {
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 5.2rem;
+    padding: 0 9.6rem;
+    /* max-width: 80rem; */
+  }
+
+  .wherever-header h2 {
+    font-size: 3.6rem;
+  }
+
+  .wherever-header p {
+    font-size: 1.4rem;
+  }
+
+  .how-does-it-work {
+    max-width: 80rem;
+  }
+
+  .review {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 4.4rem 9.6rem;
+    
+  }
+
+  .review-blockqoute blockquote {
+    text-align: center;
+  }
+
+  .pricing-cards {
+    grid-template-columns: repeat(1 , 1fr);
+    justify-self: center;
+    padding: 5.2rem 9.6rem;
+  }
+
+  .pricing-card{
+    justify-self: center;
+  }
+
+  .footer-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer {
+    padding: 7.2rem;
+  }
+
+  .footer-part2 {
+    margin-top: 7.2rem;
+  }
+
+  .sponser-header h2 {
+    font-size: 3.6rem;
+  }
+
+
+}
+
+@media ( max-width:36em) {
+
+  html{
+    font-size: 50%;
+  }
+
+  .hero {
+    background-color: #F2F2F2;
+    padding: 5.2rem 3.6rem 3.6rem 3.6rem;
+  }
+
+  .grid__2 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero{
+    position: relative;
+  }
+  .hero-img{
+    max-width: 15rem;
+    justify-self: end;
+    position: absolute;
+    bottom: 0;
+  }
+
+  
+.hero-input input {
+  width: 100%;
+}
+
+.input-icon-after {
+left: 39rem;
+}
+
+  .title-container {
+    flex-direction: column;
+    gap: 2.6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grid__3 {
+    grid-template-columns: repeat(1 , 1fr);
+  }
+
+  .card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+
+.marketing {
+    grid-template-columns: repeat(1 , 2fr);
+    height: auto;
+    padding: 3.6rem;
+}
+
+.marketing-img {
+  display: none;
+}
+
+.marketing {
+  margin: 4.6rem;
+  padding: 2rem 2.4rem;
+  /* height: 55vh; */
+}
+
+.marketing-title h2 {
+  text-align: center;
+}
+
+.marketing-title-desc {
+  text-align: center;
+}
+
+.marketing-title p:nth-child(1) {
+  text-align: center;
+}
+
+.marketing-header {
+  padding-right: 0rem;
+}
+.cards {
+  padding: 3.6rem 0rem;
+}
+.icons-card {
+  grid-template-columns: repeat(1 , 1fr);
+  margin-top: 7.2rem;
+margin-bottom: 7.2rem;
+}
+
+.how-slider{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  padding: 3.6rem;
+  gap: 2.4rem;
+}
+
+.how-slider-img2{
+  grid-row: 3;
+}
+
+.how-arrow-icon{
+  display: none;
+}
+
+.apple-icon-btn a {
+  width: 18rem;
+}
+
+.pricing-card {
+  justify-self:auto;
+}
+
+.how-slider-container {
+  grid-template-columns: 1fr;
+  padding: 0rem 3.6rem 3.6rem 3.6rem;
+}
+
+.download{
+  padding: 3.6rem;
+}
+
+.download-text h2 {
+  font-size: 3.6rem;
+}
+
+.download-text p:nth-child(3) {
+  font-size: 1.4rem;
+}
+
+.review{
+  padding: 4.4rem;
+}
+
+.review-blockqoute {
+  padding-right: 0rem;
+}
+
+.review-blockqoute blockquote {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.review-arrow-icon{
+  display: none;
+}
+
+.review-between {
+  justify-content: center;
+  text-align: center;
+}
+
+.sponser-imgs {
+  max-width: 43rem;
+}
+
+.footer-part1 {
+  grid-template-columns: 1fr;
+}
+
+.footer--1  {
+  align-items: center;
+}
+
+.footer--2 , .footer--3 , .footer--4 , .footer-lis{
+  text-align: center;
+  justify-self: center;
+}
+
+.review {
+  margin: 3.6rem;
+}
+
+.footer-lis
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer--4---list li {
+    gap: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+
+.footer-part2 {
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-btn {
+  flex-direction: row;
+}
+
+.top-btn {
+  right: 2.4rem;
+}
+}
+
+@media ( max-width:24em) {
+
+  html{
+    font-size: 43.75%;
+  }
+
+  .nav-header {
+    padding: 1.6rem 1.6rem;
+  }
+
+  .hero-img{
+    max-width: 15rem;
+    justify-self: end;
+    position: absolute;
+    bottom: 0;
+  }
+
+  
+.hero-input input {
+  width: 100%;
+}
+
+.input-icon-after {
+left: 31rem;
+}
+
+  .nav-img-logo{
+    margin-right: 0rem;
+  } 
+  .nav-img-logo a img
+  {
+    width: 10rem;
+  }
+
+  .grid__2 {
+    grid-template-columns: 1fr;
+    gap: 3.6rem;
+  }
+
+
+  .secondary-header {
+    font-size: 2.4rem;
+  }
+
+  .btn-features button {
+    padding: 1.2rem 2.2rem;
+  }
+
+  .wherever-header {
+    margin-bottom: 5.2rem;
+  }
+
+  /* .download {
+    padding: 3.6rem;
+  } */
+
+  .wherever-you-need-us{
+    margin-top: 2.4rem;
+  }
+
+  .marketing{
+    height: auto;
+    margin:  0 4.6rem 4.6rem 4.6rem;
+    padding: 3.6rem 2.4rem;
+
+
+  }
+
+
+  .customer-hero{
+    margin-top: 7.2rem;
+  }
+
+  .cards {
+    padding: 6.4rem 0rem;
+}
+
+.marketing-title h2 {
+  font-size: 2.4rem;
+}
+
+.how-title {
+  padding: 0 7.2rem;
+}
+
+.icons-card {
+  padding: 0 7.2rem;
+}
+
+.how-slider {
+  padding: 2.4rem;
+}
+
+.how-slider-function p:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.how-slider-container {
+  padding: 0rem 0rem 3.6rem 0rem;
+}
+
+.how-slider-function p:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.download-btn button a div {
+  width: 8rem;
+}
+
+.download-text h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.download-text p:nth-child(3) {
+  font-size: 1.4rem;
+}
+
+.download-bold {
+  font-size: 1.8rem;
+}
+
+.pricing-header h2 {
+  font-size: 2.4rem;
+}
+
+.pricing-header p {
+  font-size: 1.2rem;
+}
+
+.pricing-switch-container {
+  margin-bottom: 0rem;
+}
+
+.pricing-cards {
+
+  padding: 3.6rem;
+}
+
+.pricing-card {
+  justify-self:auto;
+}
+
+.review {
+  padding: 4.4rem;
+  margin: 3.6rem;
+}
+
+.review-blockqoute blockquote {
+  text-align:center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1.8rem;
+}
+
+.review-text p:nth-child(1) {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.review-between {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.review {
+  padding: 3.6rem;
+  /* margin: 3.6rem; */
+}
+
+.sponser-header h2 {
+  font-size: 2.4rem;
+}
+
+.footer {
+  padding: 3.6rem;
+}
+
+.footer--1 p {
+  text-align: center;
+}
+
+.footer--4, .footer-lis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-apple-icon-btn, .footer-andriod-icon-btn {
+  padding: 1rem 1rem;
+}
+
+.footer-apple-icon-btn a div span, .footer-andriod-icon-btn a div span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.footer-part2 {
+
+  padding: 3.6rem;
+}
+
+.footer-apple-icon-btn a, .footer-andriod-icon-btn a {
+  font-size: 1.2rem;
+}
+
+.top-btn:hover{
+  opacity: 1;
+}
+.review-img {
+
+    max-width: 12rem;
+    height: 12rem;
+
+}
+
+.review {
+  gap: 0rem;
+}
+
+.review-rate {
+  font-size: 2rem;
+  color: #F2A649;
+}
+
+
+
+}
+

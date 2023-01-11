@@ -1,0 +1,72 @@
+
+/* 
+typography : Rubik
+font-weight : 
+- 400 = default
+- 500 = meduim
+- 700 = bold
+- 
+ */
+
+ /* colors
+ main color : #F23D6D
+ tint : #F2F2F2
+ shade : 
+ #0B0F26
+
+ */
+
+ /*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* border radious : */
+/* box shadows :  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+}
+
+body{
+  color:  #0B0F26;
+  /* overflow: hidden; */
+
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grid__2{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+}
+
+.how-slider{
+  /* width: 100rem; */
+  justify-content: center;
+  align-items: center;
+}
+
+
+.how-video-play img , .how-slider-img2 img{
+  width: 100%;
+}
